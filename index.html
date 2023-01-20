@@ -2,6 +2,22 @@
 <html lang="en">
 
 <head>
+    <style>
+        h1,
+        h2,
+        h3,
+        ul,
+        p,
+        div {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            position: relative;
+            left: -16px;
+        }
+    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,16 +25,33 @@
 </head>
 
 <body>
+
     <h1>Odin Recipes</h1>
+    <p><i>"A place to delight"</i></p>
+    <img src="/img/mainpage.jpg" alt="A strawberry tart" width="100%">
+
+    <h2>All our recipes</h2>
     <ul>
         <li><a href="./recipes/bibimbap.html" Bibimbap>Bibimbap</a></li>
         <li><a href="./recipes/caldo-de-queso-con-papa.html">Caldo de Queso con Papa</a></li>
         <li><a href="./recipes/chicken-makhani.html">Chicken Markhani</a></li>
         <li><a href="./recipes/chocolate-coulant.html">Chocolate coulant</a></li>
         <li><a href="./recipes/lemon-berry-tartlets.html">Lemon Berry Tartlets</a></li>
+        <li><a href="/recipes/salmon-salad.html">Greek Salmon Salad</a></li>
         <li><a href="./recipes/spaghetti-alla-carbonara.html">Spaghetti alla Carbonara</a></li>
         <li><a href="./recipes/tomato-soup-and-crispy-toast.html">Tomato Soup</a></li>
     </ul>
+    <hr>
+    <br />
+    <div>
+        <h3>Want to receive our newsletter?</h3>
+        <form>
+            <input type="text" placeholder="First name">
+            <input type="text" placeholder="Last name">
+            <input type="email" placeholder="Email" required>
+            <input type="submit">
+        </form>
+    </div>
 </body>
 
 </html>
